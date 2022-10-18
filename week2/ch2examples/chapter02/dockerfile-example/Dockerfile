@@ -15,10 +15,11 @@ ENTRYPOINT ["nginx"]
 CMD ["-g", "daemon off;"]
 
 
-# commands to run file
+# commands to run file (creates image)
 
 # docker image build --tag local:dockerfile-example .
 
-# then
+# then run container (publishes image)
 
 # docker container run -d --name dockerfile-example -p 8080:80 local:dockerfile-example
+                # ex: docker container run -d --name rainbows -p 8010:80 local:dockerfile-example
