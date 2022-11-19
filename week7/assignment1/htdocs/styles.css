@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(24, 168, 62);
+}
+nav {
+    margin-bottom: 20px;
+}
+#flexContainer {
+    margin-top: 20px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#flex-items {
+    border: 10px solid black;
+}
